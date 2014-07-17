@@ -1,0 +1,48 @@
+
+body{
+ text-align: center;   
+}
+
+header {
+  min-height: 350px;
+  position: relative; 
+  margin-bottom: 5%;
+}
+
+
+
+header> .grid-container{
+    background-color:green;
+}
+
+
+
+header ul {
+    min-height: 50px;
+   
+}
+
+nav{
+    position: absolute;
+    bottom:0;
+   
+}
+
+  header ul li {
+    display: inline-block;
+    margin-left:6.5em;
+  }
+
+.cool{
+    background-color:green;
+    height:500px;
+}
+
+.video{
+    height:250px;
+    background-color:lightblue;
+}
+
+.header{
+    background-color:pink;
+}
