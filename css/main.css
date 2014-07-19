@@ -3,46 +3,180 @@ body{
  text-align: center;   
 }
 
+.grey{
+ 
+  background-color: #c0c0c0;
+}
+
+.grey1{
+
+  background-color:#D7DADD;
+}
+
+.grey2{
+  background-color:#DDDEE3;
+}
+
+
+/*HEADER*/
+
+/*PLACE HOLDER*/
+
+
 header {
-  min-height: 350px;
   position: relative; 
   margin-bottom: 5%;
 }
 
-
-
-header> .grid-container{
-    background-color:green;
-}
-
-
-
-header ul {
-    min-height: 50px;
-   
+.logo{
+  width:40%;
+  margin:18% 0 6% 0;
 }
 
 nav{
-    position: absolute;
-    bottom:0;
-   
+    margin: 0 auto;
+    margin-bottom: 9%;
 }
 
-  header ul li {
+
+.grid-container{
+
+}
+
+header ul li {
     display: inline-block;
-    margin-left:6.5em;
+    text-transform:uppercase;
+    font-size:0.9em;
+    margin: 0 4%;
   }
 
-.cool{
-    background-color:green;
-    height:500px;
+/*END HEADER*/
+
+/*VIDEO*/
+
+.wrap-video{
+  padding-top: 3%;
+  padding-bottom:5%;
+  background-color:#D7DADD;
+    
 }
 
-.video{
-    height:250px;
-    background-color:lightblue;
+.placeholder{
+  background-color:darkgrey;
+  width:200px;
+  height:200px;
+  border-radius: 250px;
+  
 }
 
-.header{
-    background-color:pink;
+/*IMGS*/
+
+.wrap-img{
+  padding-top: 3%;
+  padding-bottom:5%;
+  background:#DDDEE3;
+  
+}
+
+/*CHURCH$*/
+
+.wrap-church{
+ font-size:3em; 
+   padding-top: 3%;
+  padding-bottom:5%;
+}
+
+.wrap-church p{
+  margin: 0 auto;
+ width:80%; 
+}
+
+/*NEWS*/
+
+
+.wrap-news{
+  background:#DDDEE3;
+  padding-top: 3%;
+  padding-bottom:5%;
+}
+
+.wrap-news h2{
+
+  text-align:left;
+
+}
+
+.wrap-news a{
+  float:right;
+  text-decoration:none;
+  color:black;
+  text-transform:uppercase;
+  
+}
+
+.news{
+ width:75%; 
+}
+
+/*PLACEHOLDER IMG*/
+.news p, .news h3{
+ text-align:left; 
+}
+
+.news:nth-child(n+3){
+ margin:15% 0; 
+}
+/*END PLACEHODER*/
+.news-img{
+   height:80px;
+   width:80px;
+   background-color:grey;
+   float:left;
+   margin-right:4%;
+}
+
+/*wrap-footer*/
+
+.wrap-footer{
+  
+  background-color:#D7DADD;
+    padding-top: 3%;
+  padding-bottom:5%;
+}
+
+.icon-twitter, .icon-facebook, .icon-google{
+    border: solid 4px #fff;
+    border-radius:50%;
+    height:50px;
+    width:50px;
+    text-align:center;
+    margin:auto;
+    display:inline-block;
+    margin-right:1.5%;
+    margin-top:3.2%;
+    margin-bottom:2.8%;
+    
+}
+
+footer ul{
+  margin-left:5%;
+  margin: 0 auto;
+  border-left: border 1px solid white;
+  text-align: left;
+}
+
+footer address ul{
+  
+  background-color:red;
+  padding-left:5%;
+}
+
+
+@media (min-width: 1px) and (max-width: 767px)  {
+
+header ul li {
+    display: block;
+    margin: 5% 0;
+ 
+  }
 }
